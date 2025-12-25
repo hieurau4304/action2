@@ -8,9 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: check2
+      - name: install dependency injection
         run: |
-          whoami
           cd todolist
-          pwd
-          ls
+          npm install
