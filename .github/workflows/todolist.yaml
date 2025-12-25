@@ -12,3 +12,9 @@ jobs:
         run: |
           cd todolist
           npm install
+
+      - name: build/run
+        working-directory: todolis
+        run: |
+          npm run build
+          npm run serve   
