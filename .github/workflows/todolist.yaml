@@ -8,7 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: check
+      - name: check2
         run: |
           whoami
+          cd todolist
           pwd
+          ls
